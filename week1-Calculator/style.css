@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.calculator {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    width: 320px;
+    max-width: 90%;
+}
+
+#display {
+    background: #000;
+    color: #00ff88;
+    border: none;
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#display:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ff88;
+}
+
+.btn {
+    height: 60px;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn-dark {
+    background: #333 !important;
+    border: none;
+    color: white;
+}
+
+.btn-dark:hover {
+    background: #444 !important;
+}
+
+.btn-warning {
+    background: #ff9500 !important;
+    border: none;
+    color: white;
+}
+
+.btn-success {
+    background: #34c759 !important;
+    border: none;
+    color: white;
+}
+
+.btn-secondary {
+    background: #505050 !important;
+    border: none;
+    color: white;
+}
+
+.btn-danger {
+    background: #ff3b30 !important;
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
